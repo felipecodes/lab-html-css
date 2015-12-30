@@ -1,0 +1,101 @@
+/* CSS Normalize */
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,html input[type=button],/* 1 */
+input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  text-shadow: 3px 2px 0 rgba(0,0,0,0.25);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.parent {
+  display: flex;
+  flex-flow: row wrap;
+
+  height: 100vh;
+  padding: 10px;
+  border: 10px solid #FFC800;
+  background-color: #1762AB;
+}
+
+.child {
+  /* Essa propriedade define um tamanho padrão para o elemento
+   * antes dele assumir o espaço extra do container.
+   * O valor pode ser um comprimento ou uma palavra chave.
+   * Algumas palavras chave ainda não são bem suportadas.
+   *
+   * flex-basis: <length> | auto; default auto
+   * Se configurado como zero, o espaço extra em torno do conteúdo não será considerado.
+   * Se configurado como auto, o espaço será distribuído com base no valor de flex-grow.
+   */
+  flex-basis: 200px;
+
+  padding: 10px;
+  border: 5px solid #C7F500;
+  background-color: #FF6969;
+  color: #fff;
+}
+
+.child:nth-child(1) {
+  flex-grow: 1;
+
+  /* Esta propriedade permite que o item encolha, se necessário.
+   * Números negativos são inválidos.
+   *
+   * Ele aceita dois valores, 0 e 1.
+   * Quando configurado com o valor zero ele não encolhe.
+   * Quando configurado com o valor um ele encolhe, se necessário.
+   * O primeiro elemento .child não irá encolher quando necessário
+   */
+  flex-shrink: 0;
+}
+.child:nth-child(2) {
+  /* Todos os elementos .child vão crescer, se necessário.
+   * Também vão encolher, se necessário. Menos o primeiro elemento .child
+   */
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.child:nth-child(3) {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.child:nth-child(4) {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.child:nth-child(5) {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.child:nth-child(6) {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.child:nth-child(7) {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.child:nth-child(8) {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.child:nth-child(9) {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.child:nth-child(10) {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
