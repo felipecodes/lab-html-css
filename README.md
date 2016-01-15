@@ -34,3 +34,13 @@ This is a personal test suite and is neither meant to be fully comprehensive nor
 | :---: | :--- | :---: | :---: |
 | 01 | `Navigation` | [⎙]() | [Live demo](http://felipoliveira.github.io/lab-html-css/flexbox/flexbox-nav/) |
 | 02 | `Header` | [⎙]() | [Live demo](http://felipoliveira.github.io/lab-html-css/flexbox/flexbox-header/) |
+
+## Responsive images
+
+### Images in Markup
+
+| Number | Name | Annotations | Demo |
+| :---: | :--- | :---: | :---: |
+| 01 | `relative sizes` | [⎙]() | [Live demo](http://felipoliveira.github.io/lab-html-css/responsive-images/relative-sizes-on-images/) |
+| 02 | `srcset in img's elements` | [⎙]() | [Live demo]() |
+| 03 | `art direction in responsive images with picture` | [⎙]() | [Live demo]() |
