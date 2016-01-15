@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Relative sized images</title>
+
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+
+		<div class="wrapper">
+			<header class="header">
+				<h1>Relative sized images</h1>			
+			</header>
+			<p>Instead of supplying fixed image sizes and densities, the size of each supplied image can be specified by adding a width descriptor along with the size of the image element, allowing the browser to automatically calculate the effective pixel density and choose the best image to download.</p>
+
+			<section>
+				<header>
+					<h2>Relative sized images</h2>
+				</header>
+
+				<img src="http://lorempixel.com/800/400/animals/" sizes="100vw"
+						 srcset="http://lorempixel.com/320/280/animals/ 320w,
+						 				 http://lorempixel.com/640/380/animals/ 640w,
+						 				 http://lorempixel.com/800/400/animals/ 800w,
+						 				 http://lorempixel.com/1600/400/animals/ 1600w">
+			</section>
+
+			<footer>
+				<section>
+					<h2>Reference</h2>
+					<ul>
+						<li><a href="https://developers.google.com/web/fundamentals/design-and-ui/media/images/images-in-markup">Google developers - Images in Markup</a></li>
+					</ul>
+				</section>
+
+				<a class="github-link" href="https://github.com/felipoliveira/lab-html-css/tree/gh-pages/responsive-images/srcset-sizes/">view on github</a>
+			</footer>
+		</div>
+
+	</body>
+</html>
