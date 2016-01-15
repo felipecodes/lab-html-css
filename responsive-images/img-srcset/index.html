@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Use relative sizes for images</title>
+
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+
+		<div class="wrapper">
+			<header class="header">
+				<h1>img’s with srcset for high DPI devices</h1>			
+			</header>
+			<p>The srcset attribute enhances the behavior of the img element, making it easy to provide multiple image files for different device characteristics.</p>
+
+			<section>
+				<header>
+					<h2>Example img’s with srcset</h2>
+				</header>
+
+				<img src="http://lorempixel.com/1600/400/animals/"
+						 srcset="http://lorempixel.com/800/400/animals/, http://lorempixel.com/1600/400/animals/ 2x">
+			</section>
+
+			<footer>
+				<section>
+					<h2>Reference</h2>
+					<ul>
+						<li><a href="https://developers.google.com/web/fundamentals/design-and-ui/media/images/images-in-markup">Google developers - Images in Markup</a></li>
+					</ul>
+				</section>
+
+				<a class="github-link" href="https://github.com/felipoliveira/lab-html-css/tree/gh-pages/responsive-images/img-srcset/">view on github</a>
+			</footer>
+		</div>
+
+	</body>
+</html>
