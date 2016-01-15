@@ -42,5 +42,5 @@ This is a personal test suite and is neither meant to be fully comprehensive nor
 | Number | Name | Annotations | Demo |
 | :---: | :--- | :---: | :---: |
 | 01 | `relative sizes` | [⎙]() | [Live demo](http://felipoliveira.github.io/lab-html-css/responsive-images/relative-sizes-on-images/) |
-| 02 | `srcset in img's elements` | [⎙]() | [Live demo]() |
-| 03 | `art direction in responsive images with picture` | [⎙]() | [Live demo]() |
+| 02 | `srcset in img's elements` | [⎙]() | [Live demo 1](http://felipoliveira.github.io/lab-html-css/responsive-images/srcset-sizes/)<br>[Live demo 2](http://felipoliveira.github.io/lab-html-css/responsive-images/srcset/) |
+| 03 | `art direction in responsive images with picture` | [⎙](http://felipoliveira.github.io/lab-html-css/responsive-images/art-direction-picture/) | [Live demo]() |
