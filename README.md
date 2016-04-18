@@ -27,7 +27,7 @@ This is a personal test suite and is neither meant to be fully comprehensive nor
 | 07 | `flex-shrink` e `flex-basis` | [⎙]() | [Live demo](http://felipoliveira.github.io/lab-html-css/flexbox/flexbox-flex-shrink-flex-basis/) |
 | 08 | `order` | [⎙]() | [Live demo](http://felipoliveira.github.io/lab-html-css/flexbox/flexbox-order/) |
 | 09 | `flex` | [⎙]() | [Live demo](http://felipoliveira.github.io/lab-html-css/flexbox/flexbox-flex/) |
-| **Examples** |
+| **Examples** | **Name** | **Annotations** | **Demo** |
 | 10 | `Navigation` | [⎙]() | [Live demo](http://felipoliveira.github.io/lab-html-css/flexbox/flexbox-nav/) |
 | 11 | `Header` | [⎙]() | [Live demo](http://felipoliveira.github.io/lab-html-css/flexbox/flexbox-header/) |
 
