@@ -28,8 +28,8 @@ This is a personal test suite and is neither meant to be fully comprehensive nor
 | 08 | `order` | [⎙]() | [Live demo](http://felipoliveira.github.io/lab-html-css/flexbox/flexbox-order/) |
 | 09 | `flex` | [⎙]() | [Live demo](http://felipoliveira.github.io/lab-html-css/flexbox/flexbox-flex/) |
 | **Examples** | **Name** | **Annotations** | **Demo** |
-| 10 | `Navigation` | [⎙]() | [Live demo](http://felipoliveira.github.io/lab-html-css/flexbox/flexbox-nav/) |
-| 11 | `Header` | [⎙]() | [Live demo](http://felipoliveira.github.io/lab-html-css/flexbox/flexbox-header/) |
+| 01 | `Navigation` | [⎙]() | [Live demo](http://felipoliveira.github.io/lab-html-css/flexbox/flexbox-nav/) |
+| 02 | `Header` | [⎙]() | [Live demo](http://felipoliveira.github.io/lab-html-css/flexbox/flexbox-header/) |
 
 
 ## Responsive images
