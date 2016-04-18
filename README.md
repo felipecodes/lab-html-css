@@ -16,7 +16,7 @@ This is a personal test suite and is neither meant to be fully comprehensive nor
 
 ## Flexbox Layout
 
-| Number | Property Example | Annotations | Demo |
+| Number | Property or Example | Annotations | Demo |
 | :---: | :--- | :---: | :---: |
 | 01 | `display flex` e `flex-direction` | [⎙]() | [Live demo](http://felipoliveira.github.io/lab-html-css/flexbox/flexbox-display-flex-direction/) |
 | 02 | `flex-wrap` | [⎙]() | [Live demo](http://felipoliveira.github.io/lab-html-css/flexbox/flexbox-flex-wrap/) |
@@ -32,8 +32,6 @@ This is a personal test suite and is neither meant to be fully comprehensive nor
 
 
 ## Responsive images
-
-### Images in Markup
 
 | Number | Name | Annotations | Demo |
 | :---: | :--- | :---: | :---: |
