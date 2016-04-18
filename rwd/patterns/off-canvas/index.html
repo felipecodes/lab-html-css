@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Common Responsive Pattern - Off Canvas</title>
+
+		<link rel="stylesheet" href="http://s.unicode-table.com/css/font-awesome.min.css?2664c">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+
+		<div class="nav-mobile">
+			<span id="menu">
+				<svg class="icon-hamburger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+	        <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"></path>
+	      </svg>
+      </span>
+		</div>
+
+		<nav id="drawer" class="nav">
+			<h2>Off Canvas</h2>
+		</nav>
+
+		<main class="content">
+			<h2>Content</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</main>
+
+		<script>
+
+      /*
+       * Open the drawer when the menu ison is clicked.
+       */
+      var menu = document.querySelector('#menu');
+      var main = document.querySelector('main');
+      var drawer = document.querySelector('#drawer');
+
+      menu.addEventListener('click', function(e) {
+        drawer.classList.toggle('open');
+        e.stopPropagation();
+      });
+      main.addEventListener('click', function() {
+        drawer.classList.remove('open');
+      });
+
+		</script>
+	</body>
+</html>
